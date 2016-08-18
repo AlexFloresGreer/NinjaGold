@@ -50,11 +50,13 @@
 					</form>
 				</div>
 				<p>Activites</p>
-				<div id="activities" style="border:black solid 2px; height:300px">
+				<div id="activities" style="border:black solid 2px; height:auto ">
 				<!-- here's where activity will happen-->
+
 					{% for i in request.session.activities %}
 					<p>{{i}}</p>
 					{% endfor %}
+
 				</div>
 			</div>
 		</div>
