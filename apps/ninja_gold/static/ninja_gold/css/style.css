@@ -1,0 +1,22 @@
+*{
+ margin: 10px; auto;
+ padding: 0px;
+ font-family: "Tahoma";
+}
+
+#wrapper{
+	width: 960px;
+	padding: 10px;
+}
+	#wrapper h1{
+		text-align: center;
+		color: gold;
+	}
+
+#box1, #box2, #box3, #box4 {
+	text-align: center;
+	border:black solid;
+	width: 200px;
+	display: inline-block;
+}
+
